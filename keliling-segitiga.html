@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KelilingSegitiga</title>
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <section>
+        <!-- Konten Atas Keliling Segitiga -->
+        <section>
+           <div class="section-content">
+            <h2 style="text-align: center;">Keliling Segitiga</h2>
+           </div>
+
+           <div class="formula-image" style="text-align: center;"> 
+            <img 
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQobfxv2KXmGt9DRev3sr8779kgli5j_jP-Q&s">
+           </div>
+
+        <p>Rumus Keliling Segitiga:</p>
+        <p class="formula-stg" style="text-align: center;font-weight: bold;">K= X + Y + Z</p>
+        <p>Dimana:</p>
+        <p>K= Keliling Segitiga (cm2)</p>
+        <p>X= Sisi Segitiga (cm)</p>
+        <p>Y= Sisi Segitiga (cm)</p>
+        <p>Z= Sisi Segitiga (cm)</p>
+       </section>
+        
+       <!-- Pemisah Konten -->
+       <hr />
+
+       <!-- Konten Bawah Keliling Segitiga-->
+       <section>
+            <header>
+                <h2>Hitung Keliling Segitiga</h2>
+            </header>
+
+            <form onsubmit="return false">
+                <section>
+                    <div>
+                        <label>X:</label><input type="text" id="inputX">
+                    </div>
+                    
+                    <div>
+                        <label>Y:</label><input type="text" id="inputY">
+                    </div>
+
+                    <div>
+                        <label>Z:</label><input type="text" id="inputZ">
+                    </div>
+                </section>
+
+                <div id="label-daftar">
+                    <label>K = <label id="jsX"></label> + <label id="jsY"></label> + <label id="jsZ"></label></label>
+                    <br>
+                    <label>K = <label id="jshasil"></label>
+                    <br>
+                    <br>
+
+
+                </div>
+
+                
+                <button type="button" style="display: flex;" onclick="hitungKeliling()">Hitung</button>
+                <button type="button" id="reset-button" onclick="resetKeliling()">Reset</button>
+            </form>
+        </section>
+       </section>
+    </section>
+</section>
+</body>
+
+</html>
+</body>
+</html>

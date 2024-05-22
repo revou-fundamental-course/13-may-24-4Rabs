@@ -1,1 +1,49 @@
 /* Ini CSS */
+
+.section-content {
+    background: lightgreen;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: center;
+}
+
+
+.section-content>h3 {
+    margin: 0;
+}
+
+#switch-keliling {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    width: 100%;
+    background-color: white;
+    border: 0;
+    color: red;
+}
+
+.formula-img {
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    padding: 4px;
+    font-family: math;
+}
+
+form>button {
+    padding: 18px;
+    background-color: lightgreen;
+    border: 1px dotted;
+    border-radius: 18px;
+}
+
+#reset-btn {
+    background-color: red;
+    color: white;
+}
+
+.formula-stg {
+    text-align: center;
+    font-weight: bold;
+}
